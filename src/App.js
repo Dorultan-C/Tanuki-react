@@ -1,8 +1,14 @@
+import '../src/components/Header';
+import Header from '../src/components/Header';
+import '../src/components/scss/Main.scss';
 
 function App() {
 
   return (
-    <h1>hi</h1>
+    <div>
+      <Header/>
+      
+    </div>
   );
 } 
 export default App;
