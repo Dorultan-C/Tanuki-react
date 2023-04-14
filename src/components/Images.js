@@ -1,0 +1,21 @@
+import image1 from './photos/photos-shop/v-1.jpg';
+import image2 from './photos/photos-shop/v-2.jpg';
+import image3 from './photos/photos-shop/v-3.jpg';
+import image4 from './photos/photos-shop/v-4.jpg';
+import image5 from './photos/photos-shop/v-5.jpg';
+import image6 from './photos/photos-shop/v-6.jpg';
+import image7 from './photos/photos-shop/v-7.jpg';
+import image8 from './photos/photos-shop/v-8.jpg';
+import image9 from './photos/photos-shop/v-9.jpg';
+import image10 from './photos/photos-shop/v-10.jpg';
+import image11 from './photos/photos-shop/v-11.jpg';
+import image12 from './photos/photos-shop/v-12.jpg';
+import image13 from './photos/photos-shop/v-13.jpg';
+import image14 from './photos/photos-shop/v-14.jpg';
+import image15 from './photos/photos-shop/v-15.jpg';
+import image16 from './photos/photos-shop/v-16.jpg';
+import image17 from './photos/photos-shop/v-17.jpg';
+import image18 from './photos/photos-shop/v-18.jpg';
+import image19 from './photos/photos-shop/v-19.jpg';
+
+export default [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19];
