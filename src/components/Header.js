@@ -7,20 +7,20 @@ export default function Header() {
   return (
     <div>
       <div className='contact-header'>
+        <div>
           <a href="https://wa.me/+4407462971007" target="_blank">
             <img className='phone-logo' src= {PhoneIcon}></img>
             Contact us: 07462971007 
           </a>
+        </div>
+        <div>
+          <p>Language</p>
+        </div>
       </div>
 
-      <div >
-        <img className='logo-header' src={TanukiLogo}></img>
-       
+      <div className='tanuki-carpet'>
+        <img className='tanuki-logo' src={TanukiLogo}></img>
       </div>
-      <div >
-         <img className='tanuki-carpet' src={TanukiCarpet} ></img>
-      </div>
-
     </div>
   )
 }

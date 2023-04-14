@@ -1,3 +1,8 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
  background-color: pink;
 }
@@ -9,18 +14,24 @@ h1 {
 
 .contact-header {
   padding-bottom: 7px;
-
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .phone-logo {
   padding:5px 5px 0 3px;
 }
 
-.logo-header {
-  width: 200px;
-
+.tanuki-logo {
+  width: 20vh;
+  display: flex;
+  align-items: center;
+  margin-left: 45vw;
 }
 
 .tanuki-carpet {
   width: 100vw;
+  height: 20vh;
+  background-image: url(../photos/tanuki-background-carpet.png);
 }
