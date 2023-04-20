@@ -3,7 +3,7 @@ import Header from '../src/components/Header';
 import '../src/components/css/Main.css';
 import './components/Navbar';
 import Navbar from './components/Navbar';
-import Carousel from './components/Carousel';
+import Products from './components/Products';
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header/>
       <Navbar/>
-      <Carousel/>
+      <Products/>
     </div>
   );
 } 

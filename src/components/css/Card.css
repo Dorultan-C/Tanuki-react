@@ -1,0 +1,11 @@
+.main-card {
+  height: 300px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  border: 5px solid red;
+}
+
+.photo-card {
+  height: 200px;
+}
