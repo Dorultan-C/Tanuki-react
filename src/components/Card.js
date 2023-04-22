@@ -6,9 +6,14 @@ export default function
 () {
   return (
     <div className='main-card'>
-      <img className='photo-card' src={Photo}></img>
-      <h1>hbusbs</h1>
-      <p>£99</p>
+      <div className='price'>
+        <p>£19.99</p>
+      </div>
+      <div>
+        <img className='photo-card' src={Photo}></img>
+      </div>
+      <span>Pokemon</span>
+      <h3>Viraety</h3>
     </div>
-  )
+  );
 }

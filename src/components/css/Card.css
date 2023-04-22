@@ -1,11 +1,10 @@
 .main-card {
   height: 300px;
   width: 200px;
-  display: flex;
-  align-items: center;
-  border: 5px solid red;
-}
+  margin: 1.5rem;
 
-.photo-card {
-  height: 200px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
 }
